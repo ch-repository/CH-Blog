@@ -8,7 +8,6 @@ tags:
 categories: React
 comments: false
 ---
-
 ## 1、Mobx介绍
 
 > 一个可以和React良好配合的集中状态管理工具，和Redux解决的问题相似，都可以独立组件进行集中状态管理
@@ -18,7 +17,7 @@ comments: false
 ### 优势
 
 1. 简单
-   编写无模板的极简代码精准描述你的意图 
+   编写无模板的极简代码精准描述你的意图
 2. 轻松实现最优渲染
    依赖自动追踪，实现最小渲染优化
 3. 架构自由
@@ -174,7 +173,7 @@ export default observer(App)
 > 实现步骤:
 >
 > 1. 在mobx中编写异步请求方法 获取数据 存入state中
-> 2. 组件中通过 useEffect + 空依赖  触发action函数的执行 
+> 2. 组件中通过 useEffect + 空依赖  触发action函数的执行
 
 ```javascript
 // channelStore.js
@@ -406,4 +405,3 @@ function App() {
 }
 export default App 
 ```
-
