@@ -636,12 +636,28 @@
   dependencies:
     "hexo-pagination" "3.0.0"
 
+"hexo-generator-feed@^3.0.0":
+  "integrity" "sha512-Jo35VSRSNeMitS2JmjCq3OHAXXYU4+JIODujHtubdG/NRj2++b3Tgyz9pwTmROx6Yxr2php/hC8og5AGZHh8UQ=="
+  "resolved" "https://registry.npmjs.org/hexo-generator-feed/-/hexo-generator-feed-3.0.0.tgz"
+  "version" "3.0.0"
+  dependencies:
+    "hexo-util" "^2.1.0"
+    "nunjucks" "^3.0.0"
+
 "hexo-generator-index@^3.0.0":
   "integrity" "sha512-83AuNN4cWdLVi//3ugR8E3kR6rrOwhXZt+hOCm1IjtIGj353/GlrtpMHpqZHU5kqipzj4miy9dweVdukXglVWw=="
   "resolved" "https://registry.npmjs.org/hexo-generator-index/-/hexo-generator-index-3.0.0.tgz"
   "version" "3.0.0"
   dependencies:
     "hexo-pagination" "3.0.0"
+
+"hexo-generator-search@^2.4.3":
+  "integrity" "sha512-Z5hfZq2g3np/Tgdp2q9HobfIvU6Pdz89tnTurc1IIq/vW0MHgDynk0Aiv6kvMtKWthnZ5l0iEMT3YLN35NdYwQ=="
+  "resolved" "https://registry.npmjs.org/hexo-generator-search/-/hexo-generator-search-2.4.3.tgz"
+  "version" "2.4.3"
+  dependencies:
+    "nunjucks" "^3.0.1"
+    "utils-merge" "^1.0.0"
 
 "hexo-generator-tag@^2.0.0":
   "integrity" "sha512-1px/hF3veEohWDN8jjzchQhaiz+uOStUvvMaBJC9vWOlALh30UFcapL8IrvAwwJZjFRVA+WqGgDRqoQ8+yaaFw=="
@@ -693,6 +709,13 @@
     "jsdom" "^20.0.1"
     "marked" "^4.1.1"
 
+"hexo-renderer-njucks@^1.0.0":
+  "integrity" "sha512-IxQnzw6llLWNe75MqZKFh+EVZ92FQf1D3V8p4IrIJDK2T5mRZYH3lvVfNGcNi4mAh49OQ+nuEHU+AnRE+Zt1/g=="
+  "resolved" "https://registry.npmjs.org/hexo-renderer-njucks/-/hexo-renderer-njucks-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "nunjucks" "^3.1.2"
+
 "hexo-renderer-stylus@^2.1.0":
   "integrity" "sha512-Nef4YCr7JX8jaRaByhzXMSsWnDed+RgJj6aU/ARnYu3Bn5xz/qRz52VJG7KqD0Xuysxa9TIBdVUgNzBrSFn3DQ=="
   "resolved" "https://registry.npmjs.org/hexo-renderer-stylus/-/hexo-renderer-stylus-2.1.0.tgz"
@@ -720,7 +743,7 @@
   "resolved" "https://registry.npmjs.org/hexo-theme-landscape/-/hexo-theme-landscape-0.0.3.tgz"
   "version" "0.0.3"
 
-"hexo-util@^2.0.0", "hexo-util@^2.7.0":
+"hexo-util@^2.0.0", "hexo-util@^2.1.0", "hexo-util@^2.7.0":
   "integrity" "sha512-hQM3h34nhDg0bSe/Tg1lnpODvNkz7h2u0+lZGzlKL0Oufp+5KCAEUX9wal7/xC7ax3/cwEn8IuoU75kNpZLpJQ=="
   "resolved" "https://registry.npmjs.org/hexo-util/-/hexo-util-2.7.0.tgz"
   "version" "2.7.0"
@@ -1106,7 +1129,7 @@
   "resolved" "https://registry.npmjs.org/normalize-path/-/normalize-path-3.0.0.tgz"
   "version" "3.0.0"
 
-"nunjucks@^3.2.3":
+"nunjucks@^3.0.0", "nunjucks@^3.0.1", "nunjucks@^3.1.2", "nunjucks@^3.2.3":
   "integrity" "sha512-26XRV6BhkgK0VOxfbU5cQI+ICFUtMLixv1noZn1tGU38kQH5A5nmmbk/O45xdyBhD1esk47nKrY0mvQpZIhRjQ=="
   "resolved" "https://registry.npmjs.org/nunjucks/-/nunjucks-3.2.4.tgz"
   "version" "3.2.4"
@@ -1524,7 +1547,7 @@
   "resolved" "https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
 
-"utils-merge@1.0.1":
+"utils-merge@^1.0.0", "utils-merge@1.0.1":
   "integrity" "sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA=="
   "resolved" "https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz"
   "version" "1.0.1"
