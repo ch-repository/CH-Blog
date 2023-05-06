@@ -7,4 +7,5 @@ public/
 .deploy*/
 _multiconfig.yml
 
-run.sh
+gitcommit.sh
+hexocommit.sh
