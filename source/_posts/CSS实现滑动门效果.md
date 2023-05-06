@@ -1,4 +1,12 @@
-# CSS实现滑动门效果
+---
+title: CSS实现滑动门效果
+date: 2023-05-06 16:09:21
+tags: CSS
+categories: 前端开发
+comments: false
+---
+
+代码示例：
 
 ```html
 <!DOCTYPE html>
@@ -111,4 +119,3 @@
 </body>
 </html>
 ```
-
