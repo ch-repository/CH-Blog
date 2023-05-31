@@ -5,7 +5,7 @@ layout: about
 ---
 # 作者信息
 
-<ul style="margin: 20px 0;">
+<ul style="margin: 20px 0; list-style: none;">
   <li><span style="font-weight: bold;">姓名：</span> <span>姚超航</span><li>
   <li><span style="font-weight: bold;">性别：</span> <span>男</span><li>
   <li><span style="font-weight: bold;">年龄：</span> <span>2000-02</span><li>
