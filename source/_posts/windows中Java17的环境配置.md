@@ -1,6 +1,6 @@
 ---
-title: pip安装django失败的解决方案
-date: 2023-01-09 14:49:19
+title: windows中Java17的环境配置
+date: 2023-06-09 14:49:19
 tags:
   - Java
 categories: Java
