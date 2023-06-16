@@ -11,7 +11,6 @@ categories: coding
 代码示例：
 ```js
 function copy(text) {
-      // text是复制文本
     // 创建input元素
     const el = document.createElement('input')
     // 给input元素赋值需要复制的文本
@@ -24,6 +23,7 @@ function copy(text) {
     document.execCommand('copy')
     // 删除input元素
     document.body.removeChild(el)
+    
     alert('复制成功')
 }
 
