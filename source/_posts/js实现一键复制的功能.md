@@ -6,7 +6,7 @@ tags:
 categories: coding
 ---
 
-原生JavaScript实现复制功能，实现思路，创建一个input元素，给input元素设置value值，value值内容就是想要复制的内容。将input元素插入到文档当中。使用select方法选中当前元素的内容，然后使用document.execCommand('copy')将内容复制到剪贴板。最后删除input元素。
+原生JavaScript实现复制功能，实现思路，创建一个`input`元素，给`input`元素设置`value`值，`value`值内容就是想要复制的内容。将`input`元素插入到文档当中。使用`select`方法选中当前元素的内容，然后使用`document.execCommand('copy')`将内容复制到剪贴板。最后删除`input`元素。
 
 代码示例：
 ```js
@@ -23,7 +23,7 @@ function copy(text) {
     document.execCommand('copy')
     // 删除input元素
     document.body.removeChild(el)
-    
+
     alert('复制成功')
 }
 
