@@ -1,11 +1,10 @@
 ---
-layout: react
-title: Hooks详解
+title: React_Hooks详解
 date: 2023-06-12 15:41:18
+author: 超航
 tags:
  - React
 categories: coding
-comments: false
 ---
 
 ### useState
