@@ -28,6 +28,7 @@ command -v nvm
 
 如果nvm install没有反应，请参考这篇文章：https://blog.csdn.net/Lin_madman/article/details/129488898
 // 核心代码
+```bash
 # 这里是你自己的刚刚下好的nvm的路径
 export NVM_DIR="~/Documents/nvm/nvm-0.39.3"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -36,6 +37,7 @@ export NVM_DIR="~/Documents/nvm/nvm-0.39.3"
 # This loads nvm bash_completion
 # nodejs下载更换淘宝镜像
 export NVM_NODEJS_ORG_MIRROR=https://npm.taobao.org/mirrors/node
+```
 
 #### pm2
 安装命令：
