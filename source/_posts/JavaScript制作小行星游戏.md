@@ -11,4 +11,4 @@ comments: false
 
 感兴趣的朋友可以查看我的开源仓库：https://github.com/Yao-Chaohang/Asteroid
 
-<video src="../../assets/videos/Asteroid-demonstration.mp4" width="100%" height="auto" perload="auto" autoplay="autoplay"></video>
+<video src="../assets/videos/Asteroid-demonstration.mp4" width="100%" height="auto" perload="auto" autoplay="autoplay"></video>
